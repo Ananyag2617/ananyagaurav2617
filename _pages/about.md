@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+10th grade, Sophomore at Del Norte **[Ananya Gaurav](https://github.com/fastai/fastpages)** [^1].
 
 
 
