@@ -6,12 +6,13 @@ categories: [markdown]
 title: First Post
 ---
 # First Markdown Post
+THIS IS MY FIRST MARKDOWN POST!
 
 ## Welcome to my first post. 
 
 Jekyll requires blog post files to be named according to the following format:
 
-`YEAR-MONTH-DAY-filename.md`
+`2022-08-22.MyFirstPost.md`
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `filename` is whatever file name you choose, to remind yourself what this post is about. `.md` is the file extension for markdown files.
 
@@ -19,4 +20,4 @@ The first line of the file should start with a single hash character, then a spa
 
 ## My hobbies
 
-playing the piano, classical indian dance, python programming. 
+Playing the piano, Classical Indian Dance, Python Programming, Chess
