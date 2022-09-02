@@ -90,7 +90,7 @@
   
     
         ,"post8": {
-            "title": "Welcome To Ananya's Quiz!",
+            "title": "Welcome To Ananya's Super Easy Python Quiz!",
             "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg questions = 3 correct = 0 print(&#39;Hey There!!!, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;For this test you will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?!?!?!?&quot;) rsp = question_with_response(&quot;How do you update the changes you made in vscode to your blog?&quot;) if rsp == &quot;commit in vscode&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is the keyword to define a function&quot;) if rsp == &quot;def&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is a line of code that does not change?&quot;) if rsp == &quot;static text&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) . Hey There!!!, ANANYA GAURAV running c: Users ANANYA GAURAV AppData Local Programs Python Python310 python.exe For this test you will be asked 3 questions. Question: Are you ready to take a test?!?!?!? Answer: yes Question: How do you update the changes you made in vscode to your blog? commit in vscode is correct! Question: What is the keyword to define a function def is correct! Question: What is a line of code that does not change? static text is correct! ANANYA GAURAV you scored 3/3 .",
             "url": "https://ananyag2617.github.io/ananyagaurav2617/2022/08/28/PythonQuiz.html",
             "relUrl": "/2022/08/28/PythonQuiz.html",
@@ -150,7 +150,9 @@
   
 
   
-      ,"page2": {
+
+  
+      ,"page3": {
           "title": "About Me",
           "content": "10th grade, Sophomore at Del Norte Ananya Gaurav 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://ananyag2617.github.io/ananyagaurav2617/about/",
@@ -182,7 +184,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://ananyag2617.github.io/ananyagaurav2617/robots.txt",
