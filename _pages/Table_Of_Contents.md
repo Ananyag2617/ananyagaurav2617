@@ -6,7 +6,6 @@ search_exclude: true
 ---
 
 <table>
-
     <tr>
      <th>Week</th>
      <th>Sprint</th>
@@ -15,40 +14,95 @@ search_exclude: true
      <th>Career Tech</th>
      <th>Canvas</th>
     </tr>
+
+    <tr>
+        <td>
+            3
+        </td>
+        <td><a href="{{site.baseurl}}/week/3">Creative Development</a></td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/bria">How I got a  5!</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/create">Create Performance Task</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/techtalk/javascript">JavaScript Tutorial</a>
+            <br>
+            <a href="{{site.baseurl}}/techtalk/applab">Program Design with AppLab</a>
+        </td>
+        <td>TBD</td>
+    </tr>
+
+    <tr>
+        <td>
+            2 🚧
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/week/2">Data Abstraction</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/anthony-and-sahil">Reflections on Computer Science</a>
+            <br/>
+            Alumni Panel (extra credit)        </td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/python_lists">Python Lists and Dictionaries</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/techtalk/html">HTML Fragments and Layouts</a>
+        </td>
+        <td>
+            <a href="{{apcsp}}/points/2">Data Abstraction Points</a>
+            <br>
+            <a href="{{issues}}/22">Review Tickets</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            1 💰
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/week/1">Introduction to Python</a>
+        </td>
+        <td>
+            Table Visits
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/python">Hello to Python</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/techtalk/bash">Bash and Checks</a>
+            <br>
+            <a href="{{site.baseurl}}/techtalk/fastpages">Fastpages, Jupyter Notebooks, Markdown</a>     
+        </td>
+        <td>
+            <a href="{{canvas}}/2296689">Intro Python, Jupyter, Fastpages</a>
+            <br>
+            <a href="{{issues}}/21">Review Tickets</a>
+        </td>
+    </tr>
     
     <tr>
-        <td>10</td>
-        <td><a href="">Algorithms for Images</a></td>
-        <td></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.2 Data Compression</a></td>
-        <td><a href="">Image Manipulations (TBD)</a></td>
-        <td>TBD</td>
-    </tr>
+        <td>
+            0 💰
+        </td>
+        <td><a href="{{site.baseurl}}/week/0">Tool Setup</a></td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/history">Scoring History</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/collegeboard/pseudo_code">Pseudo Code</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/techtalk/tools">Tools and Equipment</a>
+        </td>
+        <td>
 
-    <tr>
-        <td>9</td>
-        <td><a href="">Working with Images</a></td>
-        <td></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.3 Extracting Information from Data</a></td>
-        <td><a href="https://csp.nighthawkcodingsociety.com/starter/rgb/">RGB Values and Base64</a></td>
-        <td>TBD</td>
+            <a href="{{canvas}}/2206627">Tools Setup</a>
+            <br>
+            <a href="{{issues}}/11">Review Tickets</a>
+        </td>
     </tr>
-
-    <tr>
-        <td>8</td>
-        <td><a href="">Working with Binary</a></td>
-        <td></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.1 Binary Numbers</a></td>
-        <td><a href="{{site.baseurl}}/frontend/binary">Binary Calculator ASCII, Base 2, 8, 16 (TBD)</a></td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>7</td>
-        <td><a href="">Methodology: Test Driven Development</a></td>
-        <td></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.4 Identifying and Correcting Errors</a></td>
-        <td><a href="{{site.baseurl}}/api/overview">Frontend and Backend APIs</a></td>
-        <td>TBD</td>
-    </tr>
+    
 </table>
