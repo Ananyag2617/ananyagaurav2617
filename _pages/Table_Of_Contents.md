@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /categories/
+permalink: /tableofcontents/
 title: Table of Contents!
 search_exclude: true
 ---
