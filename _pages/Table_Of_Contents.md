@@ -1,10 +1,9 @@
 ---
-layout: categories
+layout: page
 permalink: /categories/
 title: Table of Contents!
 search_exclude: true
 ---
-
 
 <table>
 
@@ -53,7 +52,3 @@ search_exclude: true
         <td>TBD</td>
     </tr>
 </table>
-    
-
-
-
