@@ -5,7 +5,6 @@ title: Table of Contents!
 search_exclude: true
 ---
 
-
 <table>
 
     <tr>
@@ -16,63 +15,42 @@ search_exclude: true
      <th>Career Tech</th>
      <th>Canvas</th>
     </tr>
-
+    
     <tr>
-        <td>6</td>
-        <td>
-            <a href="">Deployment: AWS, Docker, Nginx</a>
-        </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/agile">Agile and Roles</a>
-        </td>
-        <td>
-            <a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.3 Program Design and Development</a>
-        </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/bash">Bash Introduction</a>,
-            <a href="{{site.baseurl}}/techtalk/deploy">Deployment Guide</a>
-        </td>
-        <td>
-        </td>
+        <td>10</td>
+        <td><a href="">Algorithms for Images</a></td>
+        <td></td>
+        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.2 Data Compression</a></td>
+        <td><a href="">Image Manipulations (TBD)</a></td>
+        <td>TBD</td>
     </tr>
 
     <tr>
-        <td>5</td>
-        <td>
-            <a href="">Backend Development: Flask/Python </a>
-        </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/focus">Focus and Habits</a>
-        </td>
-        <td>
-            <a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.2 Program Function and Purpose</a>
-        </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/webapi">Python API Endpoints using Jokes</a>
-        </td>
-        <td>
-        </td>
+        <td>9</td>
+        <td><a href="">Working with Images</a></td>
+        <td></td>
+        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.3 Extracting Information from Data</a></td>
+        <td><a href="https://csp.nighthawkcodingsociety.com/starter/rgb/">RGB Values and Base64</a></td>
+        <td>TBD</td>
     </tr>
 
     <tr>
-        <td>4</td>
-        <td>
-            <a href="">Frontend Development: HTML/JavaScript </a>
-        </td>
-        <td>
-            <a href="{{site.baseurl}}/collegeboard/anthony-and-sahil">Reflections on Computer Science</a>
-        </td>
-        <td>
-            <a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.1 Collaboration</a>
-        </td>
-        <td>
-            <a href="{{site.baseurl}}/frontend/overview.html">Frontend with Fastpages</a>
-        </td>
-        <td>
-        </td>
+        <td>8</td>
+        <td><a href="">Working with Binary</a></td>
+        <td></td>
+        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.1 Binary Numbers</a></td>
+        <td><a href="{{site.baseurl}}/frontend/binary">Binary Calculator ASCII, Base 2, 8, 16 (TBD)</a></td>
+        <td>TBD</td>
     </tr>
 
+    <tr>
+        <td>7</td>
+        <td><a href="">Methodology: Test Driven Development</a></td>
+        <td></td>
+        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.4 Identifying and Correcting Errors</a></td>
+        <td><a href="{{site.baseurl}}/api/overview">Frontend and Backend APIs</a></td>
+        <td>TBD</td>
+    </tr>
 </table>
-
-#hello
+    
 
