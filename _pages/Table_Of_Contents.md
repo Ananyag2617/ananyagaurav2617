@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /tableofcontents/
-title: Table of Contents!
+permalink: /WeeklyUpdates/
+title: Weekly Updates!
 search_exclude: true
 ---
 
