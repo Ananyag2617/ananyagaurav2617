@@ -17,7 +17,7 @@ search_exclude: true
 
     <tr>
         <td>
-            3
+            3 😎
         </td>
         <td><a href="{{site.baseurl}}/week/3">Creative Development</a></td>
         <td>
@@ -36,7 +36,7 @@ search_exclude: true
 
     <tr>
         <td>
-            2 🚧
+            2 😎
         </td>
         <td>
             <a href="{{site.baseurl}}/week/2">Data Abstraction</a>
@@ -60,7 +60,7 @@ search_exclude: true
 
     <tr>
         <td>
-            1 💰
+            1 😎
         </td>
         <td>
             <a href="{{site.baseurl}}/week/1">Introduction to Python</a>
@@ -85,7 +85,7 @@ search_exclude: true
     
     <tr>
         <td>
-            0 💰
+            0 😎
         </td>
         <td><a href="{{site.baseurl}}/week/0">Tool Setup</a></td>
         <td>
