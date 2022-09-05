@@ -7,19 +7,19 @@ search_exclude: true
 
 <table>
     <tr>
-     <th>Week</th>
-     <th>Sprint</th>
-     <th>Human Prep</th>
-     <th>AP Test Prep</th>
-     <th>Career Tech</th>
-     <th>Canvas</th>
+     <th></th>
+     <th>Week 0</th>
+     <th>Week 1</th>
+     <th>Week 2</th>
+     <th>Week 3 </th>
+     <th>Week 4</th>
     </tr>
 
     <tr>
         <td>
-            3 😎
+            
         </td>
-        <td><a href="{{site.baseurl}}/week/3">Creative Development</a></td>
+        <td><a href="https://ananyag2617.github.io/ananyagaurav2617/markdown/2022/08/23/Hacks!.html">First Markdown Post </a></td>
         <td>
             <a href="{{site.baseurl}}/collegeboard/bria">How I got a  5!</a>
         </td>
@@ -36,10 +36,10 @@ search_exclude: true
 
     <tr>
         <td>
-            2 😎
+          
         </td>
         <td>
-            <a href="{{site.baseurl}}/week/2">Data Abstraction</a>
+            <a href="https://ananyag2617.github.io/ananyagaurav2617/2022/08/30/Tools_Check.html">Tools Check</a>
         </td>
         <td>
             <a href="{{site.baseurl}}/collegeboard/anthony-and-sahil">Reflections on Computer Science</a>
@@ -60,10 +60,10 @@ search_exclude: true
 
     <tr>
         <td>
-            1 😎
+         
         </td>
         <td>
-            <a href="{{site.baseurl}}/week/1">Introduction to Python</a>
+            <a href="https://ananyag2617.github.io/ananyagaurav2617/2022/08/28/PythonQuiz.html"> Python Test</a>
         </td>
         <td>
             Table Visits
@@ -85,7 +85,7 @@ search_exclude: true
     
     <tr>
         <td>
-            0 😎
+           
         </td>
         <td><a href="{{site.baseurl}}/week/0">Tool Setup</a></td>
         <td>
