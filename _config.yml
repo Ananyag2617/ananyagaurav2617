@@ -82,7 +82,7 @@ default_badges:
   colab: true
   deepnote: true
 
-# Escape HTML in post descriptions
+# Escape HTML in post descriptions/
 html_escape:
   description: false
 
