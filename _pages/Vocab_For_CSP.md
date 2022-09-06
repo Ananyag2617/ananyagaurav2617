@@ -2,6 +2,8 @@
 layout: page
 permalink: /VocabForCSP/
 title: Vocab!
+categories: markdown, Key Terms For CSP
+
 search_exclude: true
 ---
 
