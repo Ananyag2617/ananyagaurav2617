@@ -4,7 +4,7 @@ layout: post
 description: First markdown post
 categories: [markdown, Hi!]
 title: First Post
-- categories: [week0]
+categories: [week0]
 ---
 # First Markdown Post
 THIS IS MY FIRST MARKDOWN POST!
