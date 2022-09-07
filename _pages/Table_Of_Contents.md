@@ -2,6 +2,7 @@
 layout: page
 permalink: /WeeklyUpdates/
 title: Weekly Updates!
+categories: markdown, Table_Of_Contents
 search_exclude: true
 ---
 
