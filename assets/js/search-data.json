@@ -174,7 +174,9 @@
   
 
   
-      ,"page3": {
+
+  
+      ,"page4": {
           "title": "About Me",
           "content": "10th grade, Sophomore at Del Norte Ananya Gaurav 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://ananyag2617.github.io/ananyagaurav2617/about/",
@@ -206,7 +208,7 @@
   
 
   
-      ,"page12": {
+      ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://ananyag2617.github.io/ananyagaurav2617/robots.txt",
