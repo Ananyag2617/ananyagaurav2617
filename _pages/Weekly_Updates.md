@@ -16,7 +16,7 @@ search_exclude: true
     <tr>
         <td>3 </td>
         <td> TBD</td>
-        <td><a href="">Links</a></td>
+        <td><a href="">Click Here</a></td>
     </tr>
     <tr>
         <td>2 </td>
