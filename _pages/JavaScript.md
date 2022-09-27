@@ -8,8 +8,8 @@ search_exclude: true
 ---
 <table>
     <tr>
-        <td><img src="{{site.baseurl}}//images/csp.png" height="60" title="Frontend" alt=""></td>
-        <td><a href="{{site.baseurl}}/frontend/overview">Javascript Table</a></td>
-        <td><a href="{{site.baseurl}}/frontend/tutorial">Javascript Personal Usage</a></td>
+        <td><img src="//images/csp.jpg" height="30"></td>
+        <td><a href=" https://ananyag2617.github.io/ananyagaurav2617/2022/09/26/java.html" >	Javascript Table</a></td>
+        <td><a href=" https://ananyag2617.github.io/ananyagaurav2617/2022/09/26/Personal.html" >JavaScript Personal Usage</a></td>
     </tr>
 </table>
