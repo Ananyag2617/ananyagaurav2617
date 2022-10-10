@@ -199,20 +199,6 @@ window.onload = wrap_img;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The letter a is the 0 letter in the alphabet
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
@@ -247,20 +233,6 @@ window.onload = wrap_img;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The letter z is the 0 letter in the alphabet
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
@@ -289,6 +261,8 @@ window.onload = wrap_img;
     <span class="n">i</span> <span class="o">+=</span> <span class="mi">2</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">evens</span><span class="p">)</span>   
+
+  
 </pre></div>
 
     </div>
@@ -538,17 +512,28 @@ window.onload = wrap_img;
          <span class="s2">&quot;cookie&quot;</span><span class="p">:</span><span class="mf">2.99</span><span class="p">}</span>
 <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
 
-<span class="c1">#shows the user the menu and prompts them to select an item</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Menu&quot;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">menu</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;  $&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">))</span> <span class="c1">#why does v have &quot;str&quot; in front of it?</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;  $&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">))</span> 
 
-<span class="c1">#ideally the code should prompt the user multiple times</span>
-<span class="n">item</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please select an item from the menu&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Please select what you would like to eat&quot;</span><span class="p">)</span>
 
-<span class="c1">#code should add the price of the menu items selected by the user </span>
+
+<span class="k">def</span> <span class="nf">Menu</span><span class="p">():</span>
+    <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>   
+    <span class="n">choice</span> <span class="o">=</span> <span class="p">()</span>
+    <span class="k">while</span> <span class="n">choice</span> <span class="o">!=</span> <span class="s1">&#39;thats all&#39;</span><span class="p">:</span>
+        <span class="n">choice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please select what you would like to eat&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">choice</span> <span class="o">!=</span> <span class="s1">&#39;thats all&#39;</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">choice</span> <span class="ow">in</span> <span class="n">menu</span> <span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Selected:&#39;</span><span class="p">,</span> <span class="n">choice</span> <span class="p">,</span> <span class="s1">&#39;. Price:&#39;</span><span class="p">,</span> <span class="n">menu</span><span class="p">[</span><span class="n">choice</span><span class="p">])</span>
+                <span class="n">total</span> <span class="o">+=</span>  <span class="n">menu</span> <span class="p">[</span><span class="n">choice</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span> 
+                <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;That is not on the menu, please choose again!&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">total</span>
+
+<span class="n">total</span> <span class="o">=</span> <span class="n">Menu</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
-<span class="c1">#</span>
 </pre></div>
 
     </div>
@@ -566,7 +551,11 @@ burger  $3.99
 fries  $1.99
 drink  $0.99
 cookie  $2.99
-0
+Please select what you would like to eat
+Selected: burger . Price: 3.99
+Selected: cookie . Price: 2.99
+Selected: drink . Price: 0.99
+7.970000000000001
 </pre>
 </div>
 </div>
