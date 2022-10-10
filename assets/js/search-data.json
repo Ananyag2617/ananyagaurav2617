@@ -35,10 +35,10 @@
   
     
         ,"post3": {
-            "title": "Identifying and Correcting Errors Quiz.",
-            "content": "Screenshot: . Mistakes I made: . This is the problem I got wrong, and I believe that I misunderstood the answer questions, because I clearly saw how the code was wrong and what to fix, but I was confused with the answer choices. Here are the answer choices I put! .",
-            "url": "https://ananyag2617.github.io/ananyagaurav2617/markdown/week7/2022/10/09/1.4.html",
-            "relUrl": "/markdown/week7/2022/10/09/1.4.html",
+            "title": "1.4 Identifying and Correcting Errors.",
+            "content": "Logic Errors: . A mistake in a program that causes unexpected behavior. For example, a program outputs a result different from the expected value, like saying that three times three equals thirty-three. . Syntax Errors: . A syntax error occurs when the rules of the programming language aren&#39;t followed. Any typos in your code, such as forgetting to close a parentheses or spelling a variable wrong, will cause an error. Fortunately, many code editors will point out syntax errors, making them one of the easier errors to solve. . Run-Time Errors: . An error that occurs when the program is running. You&#39;ll be able to start your program if you have a run-time error, but something will go wrong when you&#39;re trying to use it. Logic errors are examples of run-time errors. . Overflow Errors: . An error that occurs when a computer tries to handle a number that&#39;s outside of its defined range of values. Usually, this means that your computer&#39;s trying to handle a number too big for it . How to fix errors . Here are some effective ways to identify, find and correct errors. Good testing procedures include testing with valid and invalid data. You want to make sure your program works with valid data and knows what to do if invalid data is imputed. | You should also test boundary cases, or values on the edge of program limits. This is where errors are likely to happen. For example, if your program only accepts values less than 9, you would check 8 and 10 as boundary cases. | . | Hand tracing, or manually tracking what values your variables have as your program goes along. Many hand tracing methods use charts to organize these values. | Using debuggers, or programs designed specially to test for bugs | Adding extra print statements to your code to make sure that the &quot;invisible&quot; steps (the ones that aren&#39;t shown as output) are working properly. | .",
+            "url": "https://ananyag2617.github.io/ananyagaurav2617/2022/10/09/1.4.html",
+            "relUrl": "/2022/10/09/1.4.html",
             "date": " • Oct 9, 2022"
         }
         
