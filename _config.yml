@@ -41,11 +41,11 @@ baseurl: "/ananyagaurav2617" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-  social_links:
-    github: Ananyag2617
-    Discord: banana2617
-    Instagram: ananyag2617
-    Gmail: ananyag2617@gmail.com
+  #social_links:
+    #github: Ananyag2617
+    #Discord: banana2617
+    #Instagram: ananyag2617
+    #Gmail: ananyag2617@gmail.com
     
 
 # Set this to true to get LaTeX math equation support
