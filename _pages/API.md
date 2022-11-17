@@ -14,6 +14,6 @@ search_exclude: true
     <tr>
 <table>
     
-<img src="{{site.baseurl}}/images/API2.png" width="1000" height="500"> 
+<img src="{{site.baseurl}}/images/API2.png" width="1000a" height="500"> 
 <img src="{{site.baseurl}}/images/API3.png" width="1000" height="500"> 
 <img src="{{site.baseurl}}/images/API4.png" width="1000" height="500">   
