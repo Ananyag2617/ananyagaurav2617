@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Binary Color | -ˋˏ ༻❁༺ ˎˊ-Ananya Gaurav’s Blog-ˋˏ ༻❁༺ ˎˊ-</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Binary Color" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A Binary Math illustrative application using HTML, Liquid, and JavaScript." />
+<meta property="og:description" content="A Binary Math illustrative application using HTML, Liquid, and JavaScript." />
+<link rel="canonical" href="https://ananyag2617.github.io/ananyagaurav2617/frontend/binary" />
+<meta property="og:url" content="https://ananyag2617.github.io/ananyagaurav2617/frontend/binary" />
+<meta property="og:site_name" content="-ˋˏ ༻❁༺ ˎˊ-Ananya Gaurav’s Blog-ˋˏ ༻❁༺ ˎˊ-" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-18T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Binary Color" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-18T00:00:00-06:00","datePublished":"2022-11-18T00:00:00-06:00","description":"A Binary Math illustrative application using HTML, Liquid, and JavaScript.","headline":"Binary Color","mainEntityOfPage":{"@type":"WebPage","@id":"https://ananyag2617.github.io/ananyagaurav2617/frontend/binary"},"url":"https://ananyag2617.github.io/ananyagaurav2617/frontend/binary"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/ananyagaurav2617/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://ananyag2617.github.io/ananyagaurav2617/feed.xml" title="-ˋˏ ༻❁༺ ˎˊ-Ananya Gaurav's Blog-ˋˏ ༻❁༺ ˎˊ-" /><link rel="shortcut icon" type="image/x-icon" href="/ananyagaurav2617/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/ananyagaurav2617/">-ˋˏ ༻❁༺ ˎˊ-Ananya Gaurav&#39;s Blog-ˋˏ ༻❁༺ ˎˊ-</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/ananyagaurav2617/API/">API</a><a class="page-link" href="/ananyagaurav2617/JavaScript/">JavaScript</a><a class="page-link" href="/ananyagaurav2617/VocabForCSP/">Vocab!</a><a class="page-link" href="/ananyagaurav2617/Weekly%20Updates">Weekly Updates</a><a class="page-link" href="/ananyagaurav2617/about/">About Me</a><a class="page-link" href="/ananyagaurav2617/search/">Search</a><a class="page-link" href="/ananyagaurav2617/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Hack 1: add a character display to text when 8 bits, determine if printable or not printable -->
+<!-- Hack 2: change to 24 bits and add a color code and display color when 24 bits, think about display on this one -->
+<!-- Hack 3: do your own thing -->
+
+<div class="container bg-primary">
+    <header class="pb-3 mb-4 border-bottom border-primary text-dark">
+        <span class="fs-4">Binary Math with Conversions</span>
+    </header>
+    <div class="row justify-content-md-center">
+        <div class="col-8">
+        
+            <table class="table">
+            <tr id="table">
+                <th>Plus</th>
+                <th>Binary</th>
+                <th>Octal</th>
+                <th>Hexadecimal</th>
+                <th>Decimal</th>
+                <th>Minus</th>
+            </tr>
+            <tr>
+                <!-- 1st table: button that says "+1" -->
+                <!-- onclick="add(1)", if change 1 to another number, can change increment -->
+                <td><button type="button" id="add10" onclick="add(1, 0)">+1</button></td>
+                <td id="binary0">00000000</td>
+                <td id="octal0">0</td>
+                <td id="hexadecimal0">0</td>
+                <td id="decimal0">0</td>
+                <td><button type="button" id="sub10" onclick="add(-1, 0)">-1</button></td>
+            </tr>
+            </table>
+        </div>
+        <div class="col-12">
+            
+            <!-- bits = 7 -->
+            
+            <!-- some whitespace for easier viewing--> 
+            <!-- 2nd table -->
+            <table class="table">
+            <!-- Print out value for 2^# on table-->
+            <tr>
+                
+                <td><p id="binaryNote00"></p></td>
+                
+                <td><p id="binaryNote10"></p></td>
+                
+                <td><p id="binaryNote20"></p></td>
+                
+                <td><p id="binaryNote30"></p></td>
+                
+                <td><p id="binaryNote40"></p></td>
+                
+                <td><p id="binaryNote50"></p></td>
+                
+                <td><p id="binaryNote60"></p></td>
+                
+                <td><p id="binaryNote70"></p></td>
+                
+            </tr>
+            <tr>
+                
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb00" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt00" onclick="javascript:toggleBit(0, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb10" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt10" onclick="javascript:toggleBit(1, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb20" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt20" onclick="javascript:toggleBit(2, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb30" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt30" onclick="javascript:toggleBit(3, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb40" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt40" onclick="javascript:toggleBit(4, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb50" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt50" onclick="javascript:toggleBit(5, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb60" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt60" onclick="javascript:toggleBit(6, 0)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb70" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt70" onclick="javascript:toggleBit(7, 0)">Turn on</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <!-- 2nd table w/ light bulb -->
+                
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit00" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit10" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit20" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit30" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit40" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit50" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit60" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit70" value="0" size="1" readonly="" /></td>
+                
+            </tr>
+            </table>
+        
+            <table class="table">
+            <tr id="table">
+                <th>Plus</th>
+                <th>Binary</th>
+                <th>Octal</th>
+                <th>Hexadecimal</th>
+                <th>Decimal</th>
+                <th>Minus</th>
+            </tr>
+            <tr>
+                <!-- 1st table: button that says "+1" -->
+                <!-- onclick="add(1)", if change 1 to another number, can change increment -->
+                <td><button type="button" id="add11" onclick="add(1, 1)">+1</button></td>
+                <td id="binary1">00000000</td>
+                <td id="octal1">0</td>
+                <td id="hexadecimal1">0</td>
+                <td id="decimal1">0</td>
+                <td><button type="button" id="sub11" onclick="add(-1, 1)">-1</button></td>
+            </tr>
+            </table>
+        </div>
+        <div class="col-12">
+            
+            <!-- bits = 7 -->
+            
+            <!-- some whitespace for easier viewing--> 
+            <!-- 2nd table -->
+            <table class="table">
+            <!-- Print out value for 2^# on table-->
+            <tr>
+                
+                <td><p id="binaryNote01"></p></td>
+                
+                <td><p id="binaryNote11"></p></td>
+                
+                <td><p id="binaryNote21"></p></td>
+                
+                <td><p id="binaryNote31"></p></td>
+                
+                <td><p id="binaryNote41"></p></td>
+                
+                <td><p id="binaryNote51"></p></td>
+                
+                <td><p id="binaryNote61"></p></td>
+                
+                <td><p id="binaryNote71"></p></td>
+                
+            </tr>
+            <tr>
+                
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb01" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt01" onclick="javascript:toggleBit(0, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb11" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt11" onclick="javascript:toggleBit(1, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb21" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt21" onclick="javascript:toggleBit(2, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb31" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt31" onclick="javascript:toggleBit(3, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb41" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt41" onclick="javascript:toggleBit(4, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb51" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt51" onclick="javascript:toggleBit(5, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb61" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt61" onclick="javascript:toggleBit(6, 1)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb71" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt71" onclick="javascript:toggleBit(7, 1)">Turn on</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <!-- 2nd table w/ light bulb -->
+                
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit01" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit11" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit21" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit31" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit41" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit51" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit61" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit71" value="0" size="1" readonly="" /></td>
+                
+            </tr>
+            </table>
+        
+            <table class="table">
+            <tr id="table">
+                <th>Plus</th>
+                <th>Binary</th>
+                <th>Octal</th>
+                <th>Hexadecimal</th>
+                <th>Decimal</th>
+                <th>Minus</th>
+            </tr>
+            <tr>
+                <!-- 1st table: button that says "+1" -->
+                <!-- onclick="add(1)", if change 1 to another number, can change increment -->
+                <td><button type="button" id="add12" onclick="add(1, 2)">+1</button></td>
+                <td id="binary2">00000000</td>
+                <td id="octal2">0</td>
+                <td id="hexadecimal2">0</td>
+                <td id="decimal2">0</td>
+                <td><button type="button" id="sub12" onclick="add(-1, 2)">-1</button></td>
+            </tr>
+            </table>
+        </div>
+        <div class="col-12">
+            
+            <!-- bits = 7 -->
+            
+            <!-- some whitespace for easier viewing--> 
+            <!-- 2nd table -->
+            <table class="table">
+            <!-- Print out value for 2^# on table-->
+            <tr>
+                
+                <td><p id="binaryNote02"></p></td>
+                
+                <td><p id="binaryNote12"></p></td>
+                
+                <td><p id="binaryNote22"></p></td>
+                
+                <td><p id="binaryNote32"></p></td>
+                
+                <td><p id="binaryNote42"></p></td>
+                
+                <td><p id="binaryNote52"></p></td>
+                
+                <td><p id="binaryNote62"></p></td>
+                
+                <td><p id="binaryNote72"></p></td>
+                
+            </tr>
+            <tr>
+                
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb02" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt02" onclick="javascript:toggleBit(0, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb12" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt12" onclick="javascript:toggleBit(1, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb22" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt22" onclick="javascript:toggleBit(2, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb32" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt32" onclick="javascript:toggleBit(3, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb42" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt42" onclick="javascript:toggleBit(4, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb52" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt52" onclick="javascript:toggleBit(5, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb62" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt62" onclick="javascript:toggleBit(6, 2)">Turn on</button>
+                </td>
+                
+                <!-- bulb id = 0-7, post lightbulb off pic -->
+                <td><img class="img-responsive py-3" id="bulb72" src="/ananyagaurav2617/images/w13Binary-bulbOff.png" alt="" width="40" height="Auto" />
+                    <!-- what does javascript:toggleBit mean? -->
+                    <!-- button for "Turn on" -->
+                    <button type="button" id="butt72" onclick="javascript:toggleBit(7, 2)">Turn on</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <!-- 2nd table w/ light bulb -->
+                
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit02" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit12" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit22" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit32" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit42" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit52" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit62" value="0" size="1" readonly="" /></td>
+                
+                <!-- Controls the box that h 0/1 when turn on/off-->
+                <!-- value = "0": For "text" attributes, define the default value in the input box -->
+                <!-- First box on the left = 0 -->
+                <td><input type="text" id="digit72" value="0" size="1" readonly="" /></td>
+                
+            </tr>
+            </table>
+        
+        </div>
+    </div>
+<div style="width:500px;height:100px;solid #000;" id="color"></div>
+
+</div>
+
+<script>
+
+
+    const BITS = 8;
+    const MAX = 2 ** BITS - 1;
+    const MSG_ON = "Turn on";
+    const IMAGE_ON = "/ananyagaurav2617/images/w13Binary-bulbOn.gif";
+    const MSG_OFF = "Turn off";
+    const IMAGE_OFF = "/ananyagaurav2617/images/w13Binary-bulbOff.png"
+
+    // IMPORTANT: print out value for 2^# in <p> tag
+    for (let j = 0; j < 3; j++) {
+        for (let i = 0; i < BITS; i++) {
+            const binNote = document.getElementById('binaryNote' + i + j);
+            binNote.innerHTML = (2**(BITS - 1 - i));
+        }
+    }
+
+    
+    
+
+    // return string with current value of each bit
+    function getBits(j) {
+        let bits = "";
+        for(let i = 0; i < BITS; i++) {
+            // IMPORTANT: digit = last box w/ "0"
+            // JS does auto type conversion
+            // return in binary string
+            bits = bits + document.getElementById('digit' + i + j).value;
+        }
+        return bits;
+    }
+    // setter for DOM values
+    function setConversions(binary, j) {
+        document.getElementById('binary' + j).innerHTML = binary;
+        // Octal conversion
+        // IMPORTANT: parseInt: Change binary string to base 10
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
+        // toString: if number in front, c use radix (base 8 in this case)
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString
+        document.getElementById('octal' + j).innerHTML = parseInt(binary, 2).toString(8);
+        // Hexadecimal conversion
+        document.getElementById('hexadecimal' + j).innerHTML = parseInt(binary, 2).toString(16);
+        // Decimal conversion
+        document.getElementById('decimal' + j).innerHTML = parseInt(binary, 2).toString();
+
+        const test = document.getElementById('decimal' + 0).innerHTML; 
+        const test1 = document.getElementById('decimal' + 1).innerHTML;
+        const test2 = document.getElementById('decimal' + 2).innerHTML;
+        document.getElementById("color").style.backgroundColor = 'rgb(' + test + ',' + test1 + ',' + test2 + ')';
+         
+        
+    }
+    //
+    function decimal_2_base(decimal, base) {
+        let conversion = "";
+        // loop to convert to base
+        do {
+        let digit = decimal % base;
+        conversion = "" + digit + conversion; // what does this do?
+        // IMPORTANT: same as Math.floor() (but faster), returns largest integer <= provided #
+        decimal = ~~(decimal / base);         // what does this do?
+        } while (decimal > 0);                  // why while at the end? what is ~~?
+        // loop to pad with zeros
+        if (base === 2) {                        // only pad for binary conversions
+        for (let i = 0; conversion.length < BITS; i++) {
+            conversion = "0" + conversion;
+        }
+        }
+        return conversion;
+    }
+
+    // toggle selected bit and recalculate
+    function toggleBit(i, j) {
+        //alert("Digit action: " + i );
+
+        // IMPORTANT: Get the ID of each below (ID syntax like: ex: img#bulb.img-responsive.py-3
+        // or p#test)
+        // This ID refers to a specific element that matches the ID
+        // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+        const dig = document.getElementById('digit' + i + j);
+        const image = document.getElementById('bulb' + i + j);
+        const butt = document.getElementById('butt' + i + j);
+
+        // Change digit and visual
+
+        // IMPORTANT: Change to off when bulb on
+        if (image.src.match(IMAGE_ON)) {
+            // IMPORTANT: change value of last box (w/ 0) to 0
+            dig.value = 0;
+            image.src = IMAGE_OFF;
+            butt.innerHTML = MSG_ON;
+        } else {
+            // IMPORTANT: change value of last box (w/ 0) to 1
+            // Change to on when bulb off
+            dig.value = 1;
+            image.src = IMAGE_ON;
+            butt.innerHTML = MSG_OFF;
+        }
+        // Binary numbers
+        const binary = getBits(j);
+        setConversions(binary, j);
+    }
+    // add is positive integer, subtract is negative integer
+    function add(n, j) {
+        let binary = getBits(j);
+        // convert to decimal and do math
+        let decimal = parseInt(binary, 2);
+        if (n > 0) {  // PLUS
+        // IMPORTANT: MAX === decimal? if true, decimal = 0, if false, decimal += n
+        // c also do:  decimal = MAX === decimal ? decimal = 0 : decimal += n;
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator#:~:text=The%20conditional%20(ternary)%20operator%20is,if%20the%20condition%20is%20falsy.
+        decimal = MAX === decimal ? 0 : decimal += n; // OVERFLOW or PLUS
+        } else  {     // MINUS
+        decimal = 0 === decimal ? MAX : decimal += n; // OVERFLOW or MINUS
+        }
+        // convert the result back to binary
+        binary = decimal_2_base(decimal, 2);
+        // update conversions
+        setConversions(binary, j);
+        // update bits
+        for (let i = 0; i < binary.length; i++) {
+        // IMPORTANT: substr(strat index, end index), inclusive, EXCEPT WHEN start index = 0, then end at end index - 1
+            let digit = binary.substr(i, 1);
+            document.getElementById('digit' + i + j).value = digit;
+            if (digit === "1") {
+                document.getElementById('bulb' + i + j).src = IMAGE_ON;
+                document.getElementById('butt' + i + j).innerHTML = MSG_OFF;
+            } else {
+                document.getElementById('bulb' + i + j).src = IMAGE_OFF;
+                document.getElementById('butt' + i + j).innerHTML = MSG_ON;
+            }
+        }
+    }
+
+    
+</script>
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/ananyagaurav2617/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/ananyagaurav2617/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/ananyagaurav2617/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>10th grade</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
