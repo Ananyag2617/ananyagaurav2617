@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -187,11 +187,31 @@ for (let i = <em>number</em>; i &lt; <em>number</em>; i++) {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="nx">sunny</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span> 
-<span class="nx">rainy</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sunny</span> <span class="o">=</span> <span class="n">true</span><span class="p">;</span> 
+<span class="n">rainy</span> <span class="o">=</span> <span class="n">false</span><span class="p">;</span> 
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/home/ananyag2617/vscode/ananyagaurav2617/_notebooks/2022-11-29-developing-algorithms-js.ipynb Cell 4</span> in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/ananyag2617/vscode/ananyagaurav2617/_notebooks/2022-11-29-developing-algorithms-js.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=0'&gt;1&lt;/a&gt;</span> sunny = true; 
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/ananyag2617/vscode/ananyagaurav2617/_notebooks/2022-11-29-developing-algorithms-js.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=1'&gt;2&lt;/a&gt;</span> rainy = false
+
+<span class="ansi-red-fg">NameError</span>: name 'true' is not defined</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -205,15 +225,15 @@ for (let i = <em>number</em>; i &lt; <em>number</em>; i++) {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="nx">sunny</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">umbrella</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span> 
-<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">rainy</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">umbrella</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">sunny</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">umbrella</span> <span class="o">=</span> <span class="n">false</span><span class="p">;</span> 
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">rainy</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">umbrella</span> <span class="o">=</span> <span class="n">true</span><span class="p">;</span> 
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="nx">umbrella</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span> 
+    <span class="n">umbrella</span> <span class="o">=</span> <span class="n">false</span><span class="p">;</span> 
 <span class="p">}</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">umbrella</span><span class="p">);</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">umbrella</span><span class="p">);</span> 
 </pre></div>
 
     </div>
@@ -252,9 +272,9 @@ for (let i = <em>number</em>; i &lt; <em>number</em>; i++) {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="nx">umbrella</span> <span class="o">=</span> <span class="o">!</span><span class="nx">sunny</span> <span class="o">&amp;&amp;</span> <span class="nx">rainy</span><span class="p">;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">umbrella</span> <span class="o">=</span> <span class="o">!</span>sunny <span class="o">&amp;&amp;</span> rainy<span class="p">;</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">umbrella</span><span class="p">);</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">umbrella</span><span class="p">);</span> 
 </pre></div>
 
     </div>

@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -286,9 +286,10 @@ i will go outside</p>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp</span> <span class="o">=</span> <span class="mi">65</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="s2">"it is too hot outside"</span>
+
+<span class="n">temp</span> <span class="o">=</span> <span class="mi">65</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">temp</span> <span class="o">&gt;=</span> <span class="mi">90</span><span class="p">):</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="s2">"it is too hot outside"</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">temp</span> <span class="o">&gt;=</span> <span class="mi">65</span><span class="p">):</span>
@@ -464,16 +465,180 @@ The resulting sum is 15.</li>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numb</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Please enter a postive number:"</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numb</span><span class="p">)</span>
 <span class="k">while</span> <span class="n">numb</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">numb</span> <span class="o">%</span> <span class="mi">2</span><span class="p">:</span>
-     <span class="nb">print</span><span class="p">(</span><span class="n">numb</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
-
+    
+    <span class="k">if</span> <span class="n">numb</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">numb</span> <span class="o">=</span> <span class="n">numb</span><span class="o">/</span><span class="mi">2</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">numb</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">((</span><span class="n">numb</span><span class="o">*</span><span class="mi">3</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">numb</span> <span class="o">=</span> <span class="p">((</span><span class="n">numb</span><span class="o">*</span><span class="mi">3</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">numb</span><span class="p">)</span>
+
     
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>20000000
+10000000.0
+5000000.0
+2500000.0
+1250000.0
+625000.0
+312500.0
+156250.0
+78125.0
+234376.0
+117188.0
+58594.0
+29297.0
+87892.0
+43946.0
+21973.0
+65920.0
+32960.0
+16480.0
+8240.0
+4120.0
+2060.0
+1030.0
+515.0
+1546.0
+773.0
+2320.0
+1160.0
+580.0
+290.0
+145.0
+436.0
+218.0
+109.0
+328.0
+164.0
+82.0
+41.0
+124.0
+62.0
+31.0
+94.0
+47.0
+142.0
+71.0
+214.0
+107.0
+322.0
+161.0
+484.0
+242.0
+121.0
+364.0
+182.0
+91.0
+274.0
+137.0
+412.0
+206.0
+103.0
+310.0
+155.0
+466.0
+233.0
+700.0
+350.0
+175.0
+526.0
+263.0
+790.0
+395.0
+1186.0
+593.0
+1780.0
+890.0
+445.0
+1336.0
+668.0
+334.0
+167.0
+502.0
+251.0
+754.0
+377.0
+1132.0
+566.0
+283.0
+850.0
+425.0
+1276.0
+638.0
+319.0
+958.0
+479.0
+1438.0
+719.0
+2158.0
+1079.0
+3238.0
+1619.0
+4858.0
+2429.0
+7288.0
+3644.0
+1822.0
+911.0
+2734.0
+1367.0
+4102.0
+2051.0
+6154.0
+3077.0
+9232.0
+4616.0
+2308.0
+1154.0
+577.0
+1732.0
+866.0
+433.0
+1300.0
+650.0
+325.0
+976.0
+488.0
+244.0
+122.0
+61.0
+184.0
+92.0
+46.0
+23.0
+70.0
+35.0
+106.0
+53.0
+160.0
+80.0
+40.0
+20.0
+10.0
+5.0
+16.0
+8.0
+4.0
+2.0
+1.0
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 

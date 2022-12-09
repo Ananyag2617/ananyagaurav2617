@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -135,11 +135,21 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="What-are-procedures?">What are procedures?<a class="anchor-link" href="#What-are-procedures?"> </a></h1><p><strong>Fill in the blanks please:</strong></p>
 <p>Procedure:</p>
+<ul>
+<li>A Procedure is a named group of programming instructions that may have parameters and return values.</li>
+</ul>
 <p>Parameters:</p>
-<p>Arguments:</p>
-<p>Modularity:</p>
+<ul>
+<li>Parameters are input values of a procedure.
+Arguments:</li>
+<li>Arguments specify the values of the parameters when a procedure is called
+Modularity: </li>
+</ul>
 <p>Procedural Abstraction:</p>
 <p>What are some other names for procedures?:</p>
+<ul>
+<li>Procedures can also be referred as method or function, depending on the language</li>
+</ul>
 <p>Why are procedures effective?:</p>
 
 </div>
@@ -158,13 +168,11 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">decimal</span> <span class="o">=</span> <span class="mi">7</span>
-
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please input a number&quot;</span><span class="p">))</span>
 <span class="k">def</span> <span class="nf">convertToBinary</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="mi">2</span><span class="p">:])</span>
 
-
-    <span class="p">(</span><span class="n">decimal</span><span class="p">)</span> 
-<span class="nb">print</span><span class="p">()</span>
+<span class="n">convertToBinary</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -176,10 +184,12 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;10101101100111&#39;</pre>
 </div>
+
 </div>
 
 </div>
@@ -194,6 +204,52 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numA</span>  <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please inout a number:&quot;</span><span class="p">))</span>
+<span class="n">numB</span>  <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please inout a number:&quot;</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">findmax</span><span class="p">(</span><span class="n">numA</span><span class="p">,</span><span class="n">numB</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">numA</span> <span class="o">&gt;</span> <span class="n">numB</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You inputed the numbers &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numA</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; and &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numB</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; out of these two numbers&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numA</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is greater than &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numB</span><span class="p">))</span>
+    <span class="k">elif</span> <span class="n">numA</span> <span class="o">&lt;</span> <span class="n">numB</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You inputed the numbers &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numA</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; and &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numB</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; out of these two numbers &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numA</span><span class="p">)</span> <span class="o">+</span>  <span class="s2">&quot; is less than &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numB</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Please input a number&quot;</span><span class="p">)</span>
+
+        
+<span class="n">findmax</span><span class="p">(</span><span class="n">numA</span><span class="p">,</span><span class="n">numB</span><span class="p">)</span>
+
+
+ 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>You inputed the numbers 6 and 9 out of these two numbers 6 is less than 9
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Homework/Hacks:-For-the-hw,-you-have-two-options,-easy-or-hard.-The-easy-hack-is-for-a-2.7-+-extra-work-for-the-full-3.-The-easy-hack-is-simply-creating-your-own-procedure-with-your-own-creativity.-Since-there-is-a-lot-of-leeway-for-this-one,-you-must-do-additional-work-to-get-a-3.-For-the-hard-hack,-below-is-the-start-to-a-character-to-binary-convertor.-This-is-just-a-template,-but-the-goal-is-to-translate-&quot;APCSP&quot;-into-binary.-You-can-delete-the-existing-code-if-you-want.-The-only-contraint-is-that-you-must-use-a-procedure.-Doing-this-will-get-you-a-3."><mark>Homework/Hacks</mark>: For the hw, you have two options, easy or hard. The easy hack is for a 2.7 + extra work for the full 3. The easy hack is simply creating your own procedure with your own creativity. Since there is a lot of leeway for this one, you must do additional work to get a 3. For the hard hack, below is the start to a character to binary convertor. This is just a template, but the goal is to translate "APCSP" into binary. You can delete the existing code if you want. The only contraint is that you must use a procedure. Doing this will get you a 3.<a class="anchor-link" href="#Homework/Hacks:-For-the-hw,-you-have-two-options,-easy-or-hard.-The-easy-hack-is-for-a-2.7-+-extra-work-for-the-full-3.-The-easy-hack-is-simply-creating-your-own-procedure-with-your-own-creativity.-Since-there-is-a-lot-of-leeway-for-this-one,-you-must-do-additional-work-to-get-a-3.-For-the-hard-hack,-below-is-the-start-to-a-character-to-binary-convertor.-This-is-just-a-template,-but-the-goal-is-to-translate-&quot;APCSP&quot;-into-binary.-You-can-delete-the-existing-code-if-you-want.-The-only-contraint-is-that-you-must-use-a-procedure.-Doing-this-will-get-you-a-3."> </a></h2>
@@ -207,8 +263,13 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">charToBinary</span><span class="p">(</span><span class="n">x</span><span class="p">):()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;APCSP&quot;</span>
 
+<span class="k">def</span> <span class="nf">charToBinary</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">binary</span> <span class="o">=</span> <span class="p">[</span><span class="n">convertToBinary</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">text</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="n">binary</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">charToBinary</span><span class="p">(</span><span class="n">text</span><span class="p">))</span>
 <span class="c1"># The output shown below is the output you are supposed to get</span>
 </pre></div>
 
@@ -222,8 +283,7 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&#39;&#39;APCSP&#39;&#39; in binary is 
-[1000001, 1010000, 1000011, 1010011, 1010000]
+<pre>[&#39;1000001&#39;, &#39;1010000&#39;, &#39;1000011&#39;, &#39;1010011&#39;, &#39;1010000&#39;]
 </pre>
 </div>
 </div>
