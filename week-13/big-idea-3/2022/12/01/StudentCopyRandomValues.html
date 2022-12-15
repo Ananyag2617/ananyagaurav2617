@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -161,6 +161,13 @@ window.onload = wrap_img;
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>ADD YOUR ADDITIONAL NOTES HERE:</p>
+<ul>
+<li>To get access to the random module, we add from random import * to the top of our program </li>
+<li>Random Values are a number generated using a large set of numbers and a mathematical algorithm which gives equal probability to all number occuring</li>
+<li>Each Result from randomization is equally likely to occur Using random number generation in a program means each execution may produce a different result</li>
+<li>In Python, Modules are simply files with the “. py” extension containing Python code that can be imported inside another Python Program. In simple terms, we can consider a module to be the same as a code library or a file that contains a set of functions that you want to include in your application.</li>
+<li>Python Random module is an in-built module of Python which is used to generate random numbers. These are pseudo-random numbers means these are not truly random. This module can be used to perform random actions such as generating random numbers, print random a value for a list or string, etc.</li>
+</ul>
 
 </div>
 </div>
@@ -351,11 +358,40 @@ Roll 3:1
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">coinflip</span><span class="p">():</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<span class="k">def</span> <span class="nf">coinflip</span><span class="p">():</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">pos</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Heads"</span><span class="p">,</span> <span class="s2">"Tails"</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">pos</span><span class="p">[</span><span class="n">a</span><span class="p">]</span>
+<span class="n">t1</span> <span class="o">=</span> <span class="n">coinflip</span><span class="p">()</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="n">coinflip</span><span class="p">()</span>
+<span class="n">t3</span> <span class="o">=</span> <span class="n">coinflip</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The first one is "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">t1</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The first one is "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">t2</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The first one is "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">t3</span><span class="p">))</span>
+
+    
     <span class="c1">#Write your code here</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The first one is Tails
+The first one is Tails
+The first one is Heads
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -394,6 +430,7 @@ as Extra convert it to hexidecimal as well.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">num</span><span class="p">)[</span><span class="mi">2</span><span class="p">:])</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
+<span class="c1"># I converted it into hexidecimal as well</span>
 </pre></div>
 
     </div>
@@ -406,9 +443,9 @@ as Extra convert it to hexidecimal as well.</p>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>149
-10010101
-0x95
+<pre>49
+110001
+0x31
 </pre>
 </div>
 </div>
