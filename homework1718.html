@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      4 min read
     
 </span></p>
 
@@ -134,20 +134,20 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Vocabulary">Vocabulary<a class="anchor-link" href="#Vocabulary"> </a></h2><ul>
-<li>Problem:<ul>
-<li>Decision Problem:</li>
-<li>Organization Problem:</li>
+<li>Problem: a general description of a task that can or cannot be solved algorithmically<ul>
+<li>Decision Problem: A problem with a yes or no answer</li>
+<li>Organization Problem:  a problem with a goal of finding the best answer</li>
 </ul>
 </li>
-<li>Instance:</li>
-<li>Efficiency:<ul>
-<li>Polynomial Efficiency (Good):</li>
-<li>Exponential Efficiency (Bad):</li>
+<li>Instance:a problem with a specific input</li>
+<li>Efficiency:amount of computing needed to solve a problem<ul>
+<li>Polynomial Efficiency (Good): more work takes a proportional amount of time (1 job is +2 time)</li>
+<li>Exponential Efficiency (Bad): more work takes an exponential amount more time (1 job is 2x time)</li>
 </ul>
 </li>
-<li>Heuristic Approach:</li>
-<li>Decidable Problem:</li>
-<li>Undecidable Problem:</li>
+<li>Heuristic Approach: When optimal solutions are inefficient, look for a possibly optimal solution that is more efficient</li>
+<li>Decidable Problem:  A decision problem that has a clear solution that will always make a correct output</li>
+<li>Undecidable Problem: A decision problem with no solution that is not gaurenteed to produce the correct output</li>
 </ul>
 
 </div>
@@ -156,7 +156,11 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Notes">Notes<a class="anchor-link" href="#Notes"> </a></h2><ul>
-<li>_</li>
+<li>Algorithm efficiency relates to how many resources a computer needs to expend to process an algorithm. The efficiency of an algorithm needs to be determined to ensure it can perform without the risk of crashes or severe delays. If an algorithm is not efficient, it is unlikely to be fit for its purpose.</li>
+<li>One way to measure the efficiency of an algorithm is to count how many operations it needs in order to find the answer across different input sizes.</li>
+<li>A good algorithm is correct, but a great algorithm is both correct and efficient. The most efficient algorithm is one that takes the least amount of execution time and memory usage possible while still yielding a correct answer.</li>
+<li>In computer science, algorithmic efficiency is a property of an algorithm which relates to the amount of computational resources used by the algorithm. An algorithm must be analyzed to determine its resource usage, and the efficiency of an algorithm can be measured based on the usage of different resources.</li>
+<li>Quicksort. Quicksort is one of the most efficient sorting algorithms, and this makes of it one of the most used as well. The first thing to do is to select a pivot number, this number will separate the data, on its left are the numbers smaller than it and the greater numbers on the right.</li>
 </ul>
 
 </div>
@@ -184,13 +188,8 @@ Fully programmed solution will improve your grade, at a minimum show that you tr
 <span class="k">def</span> <span class="nf">isvalue</span><span class="p">(</span><span class="n">value</span><span class="p">,</span><span class="n">array</span><span class="p">):</span>
     <span class="c1">#--------------------</span>
     <span class="n">exists</span> <span class="o">=</span> <span class="kc">False</span>
-    <span class="k">while</span> <span class="n">exists</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">array</span><span class="p">)):</span>
-            <span class="k">if</span> <span class="n">value</span> <span class="o">==</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-                <span class="n">exists</span> <span class="o">=</span> <span class="kc">True</span>
-        <span class="k">if</span> <span class="n">exists</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
-            <span class="k">return</span> <span class="n">exists</span>
-    <span class="k">return</span> <span class="n">exists</span>
+    <span class="k">if</span> <span class="n">exists</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+     <span class="k">return</span> <span class="n">exists</span>
     <span class="c1">#--------------------</span>
 <span class="n">starttime</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100000</span><span class="p">):</span>
@@ -210,7 +209,7 @@ Fully programmed solution will improve your grade, at a minimum show that you tr
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>6.984534740447998 seconds
+<pre>0.21117639541625977 seconds
 </pre>
 </div>
 </div>
@@ -227,10 +226,52 @@ Fully programmed solution will improve your grade, at a minimum show that you tr
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span> <span class="k">as</span> <span class="nn">m</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;num:&quot;</span><span class="p">))</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;num:&quot;</span><span class="p">))</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">b</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="o">==</span> <span class="n">m</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">c</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sum is perfect&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sum is not perfect&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>sum is not perfect
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Notes">Notes<a class="anchor-link" href="#Notes"> </a></h2><ul>
-<li>_</li>
+<li>An undecidable problem is one that should give a "yes" or "no" answer, but yet no algorithm exists that can answer correctly on all inputs.</li>
+<li>In computability theory, an undecidable problem is a type of computational problem that requires a yes/no answer, but where there cannot possibly be any computer program that always gives the correct answer; that is, any possible program would sometimes give the wrong answer or run forever without giving any answer.</li>
+<li>An unsolvable problem is one for which no algorithm can ever be written to find the solution. An undecidable problem is one for which no algorithm can ever be written that will always give a correct true/false decision for every input value.</li>
+<li>There are some problems that a computer can never solve, even the world's most powerful computer with infinite time: the undecidable problems. An undecidable problem is one that should give a "yes" or "no" answer, but yet no algorithm exists that can answer correctly on all inputs.</li>
 </ul>
 
 </div>
@@ -301,11 +342,13 @@ Fully programmed solution will improve your grade, at a minimum show that you tr
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fastestroute</span><span class="p">(</span><span class="n">start</span><span class="p">,</span><span class="n">data</span><span class="p">):</span>
     <span class="n">drivetime</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">order</span> <span class="o">=</span> <span class="p">[]</span>
+    
     <span class="c1">#CODE,CODE,CODE</span>
     <span class="k">return</span><span class="p">(</span><span class="n">drivetime</span><span class="p">,</span><span class="n">order</span><span class="p">)</span>
 
 <span class="n">start</span> <span class="o">=</span> <span class="s1">&#39;DelNorte&#39;</span>
 <span class="c1"># &#39;dataset&#39; is the name of the nested key value pair</span>
+<span class="c1"># I was really confused with this code and when I did attempt it, my vscode kept freezing</span>
 </pre></div>
 
     </div>
