@@ -1,6 +1,6 @@
 ---
 title: Binary Math
-layout: default
+layout: base
 description: Binary Hack
 categories: [3.B, 3.C, C4.4]
 tags: [html, liquid, javascript]

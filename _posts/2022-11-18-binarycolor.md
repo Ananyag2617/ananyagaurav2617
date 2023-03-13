@@ -1,6 +1,6 @@
 ---
 title: Binary Color
-layout: default
+layout: base
 description: A Binary Math illustrative application using HTML, Liquid, and JavaScript.
 permalink: /frontend/binary
 categories: [3.B, 3.C, C4.4]
