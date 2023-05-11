@@ -18,21 +18,50 @@ week: 29
 > As we have learned, a computer needs aa program to do something smart.  The sequence of a program initiates a series of actions with the computers Central Processing Unit (CPU). This component is essentially a binary machine focussing on program instructions provided.  The CPU retrieives and stores the data it acts upon in Random Access Memory (RAM). Between the CPU, RAM, and Storage Devices a computer can work with many programs and large amounts of data.
 
 List specification of your Computer, or Computers if working as Pair/Trio
-- Processor GHz:
-- Memory in GB:
-- Storage in GB:
-- OS:
+- Processor GHz: <mark> 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz <mark>
+- Memory in GB: <mark> 12.0 GB (11.7 GB usable) <mark>
+- Storage in GB: <mark> 12.0 GB (11.7 GB usable) <mark>
+- OS: <mark> Windows 11 Home 22621.1555<mark>
 
 Define or describe usage of Computer using Computer Programs. Pictures are preferred over a lot of text.  Use your experience.
-- Input devices
+- Input devices: 
+    - <mark>Input devices are used to enter information or commands into a computer. Examples of input devices include a keyboard, mouse, microphone, or scanner.<mark>
+<img src="{{site.baseurl}}/images/computer.png" width="300" height="300"> 
+
+
 - Output devices
+    - <mark>Output devices display or output information from the computer. Examples of output devices include a monitor, printer, or speakers.<mark>
+    <img src="{{site.baseurl}}/images/computer1.png" width="300" height="300"> 
+
+
 - Program File
+     - <mark>A program file is a file containing instructions that a computer can execute. These instructions are written in a programming language. Examples of program files include .exe files on Windows or .app files on macOS.<mark>
+     <img src="{{site.baseurl}}/images/computer2.png" width="300" height="300"> 
+
+
 - Program Code
+     - <mark>Program code is the set of instructions that a computer executes when running a program. This code is written in a programming language. Examples of programming languages include Python, Java, or C++.<mark>
+<img src="{{site.baseurl}}/images/computer3.png" width="300" height="300"> 
+
 - Processes
+     - <mark>A process is a program in execution. It consists of the program code, as well as the memory and other resources that the program needs to run. Each process has its own memory space and runs independently of other processes.<mark>
+<img src="{{site.baseurl}}/images/computer4.png" width="300" height="300"> 
+
 - Ports
+     - <mark>A port is a physical or virtual communication endpoint that a computer uses to send or receive data. Examples of physical ports include USB, Ethernet, or HDMI ports. Virtual ports are used for networking, such as TCP or UDP ports.<mark>
+<img src="{{site.baseurl}}/images/computer5.png" width="300" height="300"> 
+
 - Data File
+     - <mark>A data file is a file that contains data, such as text, images, or sound. These files are typically created or edited using a program that can read and write the file format. Examples of data files include .txt, .jpg, or .mp3 files.<mark>
+<img src="{{site.baseurl}}/images/computer6.png" width="300" height="300"> 
+
 - Inspect Running Code
+     - <mark>To inspect running code, a programmer can use a debugger. A debugger is a program that allows the programmer to step through the code and examine variables and memory while the program is running.<mark>
+<img src="{{site.baseurl}}/images/computer7.png" width="300" height="300"> 
+
 - Inspect Variables
+     - <mark>To inspect variables in code, a programmer can use a debugger or print statements. A print statement will display the value of a variable at a specific point in the program's execution. <mark>
+<img src="{{site.baseurl}}/images/computer8.png" width="300" height="300"> 
 
 
 ![Computer Hardware]({{site.baseurl}}/images/cpu.jpeg)
@@ -52,16 +81,32 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - Bandwidth is usually measured in bits per second
 
 - Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use `traceroute` and `ping` commands from Linux Terminal.  
-    - Path 
+    - Path
+        - <mark>The term "path" refers to the route that data takes when it is transmitted from one point to another. It can include several intermediate nodes or devices that the data passes through before reaching its destination.<mark>
     - Route
+        - <mark>A "route" refers to the specific path that data takes through a network to reach its destination. This can involve multiple hops or intermediate nodes that the data passes through before it arrives at its intended endpoint.<mark>
+
     - Computer System
+        - <mark> A "computer system" is a set of interconnected components that work together to process and manage data. This can include hardware components like the CPU, memory, and storage devices, as well as software components like the operating system and applications.<mark>
+
     - Computer Device
+        - <mark>A "computer device" refers to any physical component or peripheral that is connected to a computer system. This can include input/output devices like keyboards, mice, and displays, as well as storage devices like hard drives and flash drives.<mark>
+
     - Bandwidth
+        - <mark>"Bandwidth" refers to the amount of data that can be transmitted over a network connection in a given period of time. It is typically measured in bits per second (bps), and can be affected by factors like the capacity of the network infrastructure and the quality of the physical transmission medium.<mark>
+
     - Computer Network
+        - <mark> A "computer network" is a collection of interconnected devices and systems that can communicate and exchange data with each other. This can include local area networks (LANs), wide area networks (WANs), and the internet.<mark>
+
 
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
+
+<img src="{{site.baseurl}}/images/computer9.png" width="300" height="300"> 
+<img src="{{site.baseurl}}/images/computer10.png" width="300" height="300"> 
+
+
 
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
@@ -81,25 +126,10 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 
 - Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highligh vocabulary by illustration. The below illustration have some ideas
 
-![Full Stack]({{site.baseurl}}/images/fullstack.png)
+<img src="{{site.baseurl}}/images/computer16.png" width="500" height="500"> 
+<img src="{{site.baseurl}}/images/computer17.png" width="800" height="800"> 
 
 
-- Often we draw pictures of machines communicating over the Internet with arrows.  However, the real communication goes through protocol layers and the machine and then is trasported of the network.   For College Board and future Computer Knowledge you should become familiar with the following ...
-
-```
-     User Machine  <---> Frontend Server <---> Backend Server
-    +-----------+         +-----------+         +-----------+
-    |  Browser  |         |  GH Page  |         |   Flask   |
-    +-----------+    ^    +-----------+    ^    +-----------+
-    |    HTTP   |    |    |    HTTP   |    |    |    HTTP   |
-    +-----------+    |    +-----------+    |    +-----------+
-    |    TCP    |    |    |    TCP    |    |    |    TCP    |   
-    +-----------+    |    +-----------+    |    +-----------+
-    |     IP    |    V    |     IP    |    V    |     IP    |
-    +-----------+         +-----------+         +-----------+
-    |  Network  |  <--->  |  Network  |  <--->  |  Network  |
-    +-----------+         +-----------+         +-----------+
-```
 
 The "http" layer is an application layer protocol in the TCP/IP stack, used for ***communication between web browsers and web servers***. It is the protocol used for transmitting data over the World Wide Web.
 
@@ -114,14 +144,22 @@ The "network" layer is responsible for ***routing data packets between networks*
 > Watch both Daily videos for 4.2
 
 - Complete the network activity, summarize your understanding of fault tolerance.
+<img src="{{site.baseurl}}/images/computer11.png" width="300" height="300"> 
+<img src="{{site.baseurl}}/images/computer12.png" width="300" height="300"> 
+<img src="{{site.baseurl}}/images/computer13.png" width="300" height="300"> 
+<img src="{{site.baseurl}}/images/computer14.png" width="300" height="300"> 
+<img src="{{site.baseurl}}/images/computer15.png" width="300" height="300"> 
 
 
 ### Parallel and Distributed Computing
 > Review previous lecture on Parallel Computing and watch Daily vidoe 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...
 
 - What is naturally Distributed in Frontend/Backend archeticture?  
+    - <mark>In a frontend/backend architecture, the frontend code (such as HTML, CSS, and JavaScript) is naturally distributed because it runs on the client-side, i.e., in the user's web browser. The backend code, on the other hand, is naturally centralized because it runs on a server and serves data to the frontend.<mark>
 
 - Analyze this command in Docker: ```ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"```.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an [article](https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7)
+
+    - <mark>The --workers option specifies the number of worker processes that Gunicorn should use to handle incoming requests. In this case, it's set to 1, which means that Gunicorn will only use one worker process. This option can be increased to take advantage of multiple CPU cores and parallel computing, but it's important to balance this with the amount of available system resources and the nature of the workload. The --bind option specifies the address and port that Gunicorn should bind to when it starts. In this case, it's set to 0.0.0.0:8086, which means that Gunicorn will bind to all network interfaces (0.0.0.0) on port 8086. This option is useful for specifying which IP address and port the web server should listen on.<mark>
 
 
 > Last week we discussed parallel computing on local machine.  There are many options.  Here is something to get parallel computing work with a tool called Ray.
